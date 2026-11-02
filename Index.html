@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sovereign — Offline Document AI</title>
+<link rel="stylesheet" href="styles.css"></head><body>
+<div id="lock"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="var(--ac)" stroke-width="1.6"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg>
+<h1 style="font-size:30px;margin-top:10px">Sovereign</h1><p class="mu" style="max-width:300px">Your documents never leave this device. Enter your PIN to unlock the vault.</p>
+<input id="pin" type="password" inputmode="numeric" maxlength="4" placeholder="••••" autocomplete="off"><button class="b" id="unl" data-a="unlock">Unlock</button><p id="perr" class="mu" style="min-height:20px"></p><p class="mu">Demo PIN: 1234</p></div>
+<header><div class="logo">Sover<span>eign</span></div><span class="badge" id="net"></span><button class="b g" data-a="lockNow" style="min-height:34px;padding:4px 10px">Lock</button></header>
+<main id="m"></main>
+<nav><button data-t="vault"><i>▤</i>Vault</button><button data-t="ask"><i>✦</i>Ask</button><button data-t="ins"><i>◎</i>Insights</button><button data-t="red"><i>▬</i>Redact</button><button data-t="aud"><i>☰</i>Audit</button></nav>
+<div id="toast"></div>
+<script src="app.js"></script></body></html>
